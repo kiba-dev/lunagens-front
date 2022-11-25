@@ -14,11 +14,6 @@ import { DEXSettingsContextProvider } from '../contexts/dex/settings';
 import { Web3ContextProvider, useWeb3Context } from '../contexts/web3';
 import WalletConnect from '../assets/images/wallet_connect.png'
 
-const buttonStyle = {
-  background: 'linear-gradient(126deg, #063230 0%, #07807C 100%) !important',
-  marginRight: '20px'
-}
-
 function getLibrary(provider: any) {
   return new Web3(provider);
 }
