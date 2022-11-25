@@ -55,7 +55,7 @@ export default function Swap() {
   const [isSecondTokensListModalVisible, setIsSecondTokensListModalVisible] = useState<boolean>(false);
   const [isSwapLoading, setIsSwapLoading] = useState<boolean>(false);
 
-  const { tokensListing } = useAPIContext();
+  // const { tokensListing } = useAPIContext();
   const { chainId, active, library, account } = useWeb3Context();
   const { txDeadlineInMins, slippageTolerance, gasPrice, playSounds } = useDEXSettingsContext();
   const [firstSelectedToken, setFirstSelectedToken] = useState<ListingModel>({} as ListingModel);
@@ -206,12 +206,12 @@ export default function Swap() {
     val1
   ]);
 
-  useEffect(() => {
-    if (tokensListing.length >= 2) {
-      setFirstSelectedToken(tokensListing[0]);
-      setSecondSelectedToken(tokensListing[1]);
-    }
-  }, [tokensListing]);
+  // useEffect(() => {
+  //   if (tokensListing.length >= 2) {
+  //     setFirstSelectedToken(tokensListing[0]);
+  //     setSecondSelectedToken(tokensListing[1]);
+  //   }
+  // }, [tokensListing]);
 
   useEffect(() => {
     setVal2(outputAmount);

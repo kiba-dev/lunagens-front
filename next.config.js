@@ -17,6 +17,11 @@ module.exports = withPWA({
         source: '/dex',
         destination: '/welcome',
         permanent: true
+      },
+      {
+        source: '/',
+        destination: '/welcome',
+        permanent: true
       }
     ];
   },
