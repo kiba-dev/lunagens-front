@@ -97,7 +97,7 @@ export default function Header() {
             >
               <Box sx={{ display: 'flex', alignItems: 'center' }}>
                 <img src={Logo.src} alt="" style={{ width: '36px', marginRight: '8px' }} />
-                <Typography color="#fff" sx={{ fontWeight: 600, cursor: 'pointer' }} onClick={() => { Router.push('/welcome') }}>LUNAGENS</Typography>
+                <Typography color="#fff" sx={{ fontWeight: 600, cursor: 'pointer' }} onClick={() => { Router.push('/welcome') }}>LunaGens DeFi Staking</Typography>
               </Box>
             </Box>
             <MuiLink
