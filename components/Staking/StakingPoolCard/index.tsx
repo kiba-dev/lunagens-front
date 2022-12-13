@@ -96,7 +96,7 @@ export default function StakingPoolCard({ pool, poolType }: IStakingPoolCardProp
           <div className="flex justify-between items-center w-full">
             <span className="text-[16px] text-[#fff]">Pool ID</span>
             <a href={chain.explorer.concat(`/address/${poolDetails.id}`)} target="_blank" rel="noreferrer">
-              <span className="text-[#fff] font-[500] text-[15px] lowercase">
+              <span className="flex text-[#fff] font-[500] text-[15px] lowercase">
                 {formatEthAddress(pool, 4)} <FiExternalLink />
               </span>
             </a>
@@ -104,7 +104,7 @@ export default function StakingPoolCard({ pool, poolType }: IStakingPoolCardProp
           <div className="flex justify-between items-center w-full">
             <span className="text-[16px] text-[#fff]">Pool Owner</span>
             <a href={chain.explorer.concat(`/address/${poolDetails.owner}`)} target="_blank" rel="noreferrer">
-              <span className="text-[#fff] font-[500] text-[15px] lowercase">
+              <span className="flex text-[#fff] font-[500] text-[15px] lowercase">
                 {isAddress(poolDetails.owner) ? formatEthAddress(poolDetails.owner, 4) : poolDetails.owner} <FiExternalLink />
               </span>
             </a>

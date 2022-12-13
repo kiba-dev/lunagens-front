@@ -23,7 +23,7 @@ const AppContent = ({ children }: any) => {
   return (
     <>
       <Head>
-        <title>Lunagens</title>
+        <title>Lunagens DeFi Staking</title>
       </Head>
       <Container maxWidth="lg">
         <ParticlesComponent />

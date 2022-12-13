@@ -23,7 +23,7 @@ export default function CreateNewStakingPool() {
     withdrawalIntervals: 30
   });
   const isValidData = useMemo(
-    () => isAddress(data.token0) && isAddress(data.token1) && data.apy1 > 0 && data.apy2 > 0 && data.tax >= 0 && data.withdrawalIntervals >= 30,
+    () => isAddress(data.token0) && isAddress(data.token1) && data.apy1 > 0 && data.apy2 >= 0 && data.tax >= 0 && data.withdrawalIntervals >= 30,
     [data.apy1, data.apy2, data.tax, data.token0, data.token1, data.withdrawalIntervals]
   );
   const chain = useMemo(() => chains[chainId as unknown as keyof typeof chains], [chainId]);

@@ -21,7 +21,7 @@ export default function Dex() {
   return (
     <>
       <Head>
-        <title>Lunagens</title>
+        <title>Lunagens DeFi Staking</title>
       </Head>
       <Box sx={{ pt: 20 }}>
         <Box sx={{ display: 'flex', flexDirection: { xs: 'column', sm: 'row' } }}>

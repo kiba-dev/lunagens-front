@@ -13,7 +13,7 @@ export default function Staking() {
   return (
     <>
       <Head>
-        <title>Lunagens | Staking</title>
+        <title>Lunagens DeFi Staking</title>
       </Head>
       <div className="flex flex-col justify-evenly gap-4 items-start w-full h-full bg-radialed overflow-auto hidden-scrollbar">
         <div className="flex flex-col justify-evenly gap-1 px-5">
