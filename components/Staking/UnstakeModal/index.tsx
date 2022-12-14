@@ -50,10 +50,10 @@ export default function UnstakeModal({ pool, isOpen, onClose, amountStaked }: IU
                       onChange={(e) => setAmount(e.target.valueAsNumber || 0)}
                     />
                     <div className="flex justify-center items-center gap-2">
-                      <button disabled={amount <= 0} className="btn btn-accent">
+                      {/* <button disabled={amount <= 0} className="btn btn-accent">
                         Unstake Amount
                       </button>
-                      <button className="btn btn-warning">Unstake All</button>
+                      <button className="btn btn-warning">Unstake All</button> */}
                     </div>
                   </div>
                 </div>
