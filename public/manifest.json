@@ -4,9 +4,9 @@
   "display": "standalone",
   "scope": "/",
   "start_url": "/",
-  "name": "Vefi DApps",
-  "short_name": "Vefi DApps",
-  "description": "The Vefi DApps is a product of the Vefi Ecosystem that houses commonly used decentralized platforms.",
+  "name": "Stkelung DApp",
+  "short_name": "Stakelung DApps",
+  "description": "The Stakelung DApps is a product of the Lunagens Ecosystem that houses commonly used decentralized platforms.",
   "icons": [
     {
       "src": "/icon-192x192.png",
